@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<title>Basic Version Modal</title>
+<link rel="stylesheet"  type="text/css"  href="index.css">
+<script src="jquery-3.3.1.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+</head>
+<body>
+     
+    
+  <button id="call-modal" class="modal-btn">Show Modal</button>    
+  
+ <div class="flex">    
+ <div class="modal">
+ <div class="modal-bg">
+  <div class="modal-main">
+  <h1 style="margin-left: 300px; margin-top: 150px; position:fixed;">Hello</h1>
+  <img class="close" src="close.png">
+  </div>
+   
+</div> 
+ </div>
+   </div> 
+<script>
+    $(document).ready(function(){
+        
+        
+        $(".modal-btn").click(function(){
+            
+            $(".modal").fadeIn();
+            
+        });
+        
+        
+$(".close").click(function(){
+    
+  $(".modal").fadeOut();    
+        
+
+});
+ 
+        
+        
+        
+    });
+    
+    
+</script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+</html>
